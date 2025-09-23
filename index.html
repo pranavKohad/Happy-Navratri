@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Navratri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <canvas id="particles"></canvas>
+    <div class="content">
+      <h1><span>Happy</span> Navratri</h1>
+      <h2>Nine Divine Nights</h2>
+      <p>
+        Celebrate the divine feminine power through nine sacred nights dedicated to Goddess Durga.<br>
+        Each day honors a different form of the Divine Mother with unique colors, rituals, and spiritual significance.
+      </p>
+      <button id="discoverBtn">✨ Discover the Nine Goddesses ✨</button>
+    </div>
+  </section>
+
+  <!-- Goddesses Section -->
+  <section class="goddesses" id="goddessSection">
+    <h2 class="goddess-title">Nine Forms of Divine Mother</h2>
+    <p class="goddess-desc">
+      Navratri celebrates the divine feminine in her nine magnificent forms, each radiating unique energy, color, and blessings. Explore each day’s goddess and embrace the spiritual journey towards light, strength, and wisdom.
+    </p>
+    <div class="color-filters">
+      <button class="filter-btn" data-color="red">Red</button>
+      <button class="filter-btn" data-color="blue">Royal Blue</button>
+      <button class="filter-btn" data-color="yellow">Yellow</button>
+      <button class="filter-btn" data-color="green">Green</button>
+      <button class="filter-btn" data-color="grey">Grey</button>
+      <button class="filter-btn" data-color="orange">Orange</button>
+      <button class="filter-btn" data-color="white">White</button>
+      <button class="filter-btn" data-color="pink">Pink</button>
+      <button class="filter-btn" data-color="purple">Purple</button>
+      <button class="filter-btn" data-color="gold">Gold</button>
+    </div>
+    <div class="cards">
+      <div class="card" data-color="red">
+        <div class="card-header"><span class="crown">👑</span> Day 1</div>
+        <div class="card-title">Shailaputri</div>
+        <div class="card-color">Red</div>
+        <div class="card-desc">
+          The mountain-born goddess, Shailaputri, rides a bull and holds a trident and lotus. She marks the beginning of Navratri, symbolizing strength, purity, and the power of nature.
+        </div>
+      </div>
+      <div class="card" data-color="blue">
+        <div class="card-header"><span class="crown">👑</span> Day 2</div>
+        <div class="card-title">Brahmacharini</div>
+        <div class="card-color">Royal Blue</div>
+        <div class="card-desc">
+          Embodying devotion and penance, Brahmacharini walks barefoot with a rosary and water pot. She inspires perseverance, wisdom, and spiritual growth.
+        </div>
+      </div>
+      <div class="card" data-color="yellow">
+        <div class="card-header"><span class="crown">👑</span> Day 3</div>
+        <div class="card-title">Chandraghanta</div>
+        <div class="card-color">Yellow</div>
+        <div class="card-desc">
+          With a crescent moon on her forehead, Chandraghanta rides a tiger and radiates courage. She dispels negativity and brings peace and bravery to her devotees.
+        </div>
+      </div>
+      <div class="card" data-color="green">
+        <div class="card-header"><span class="crown">👑</span> Day 4</div>
+        <div class="card-title">Kushmanda</div>
+        <div class="card-color">Green</div>
+        <div class="card-desc">
+          Creator of the universe, Kushmanda’s radiant smile fills the world with light and vitality. She blesses with health, happiness, and prosperity.
+        </div>
+      </div>
+      <div class="card" data-color="grey">
+        <div class="card-header"><span class="crown">👑</span> Day 5</div>
+        <div class="card-title">Skandamata</div>
+        <div class="card-color">Grey</div>
+        <div class="card-desc">
+          The nurturing mother of Skanda (Kartikeya), Skandamata rides a lion and holds her son. She bestows wisdom, salvation, and motherly love.
+        </div>
+      </div>
+      <div class="card" data-color="orange">
+        <div class="card-header"><span class="crown">👑</span> Day 6</div>
+        <div class="card-title">Katyayani</div>
+        <div class="card-color">Orange</div>
+        <div class="card-desc">
+          Fierce and powerful, Katyayani vanquished the demon Mahishasura. She inspires courage, righteousness, and the strength to overcome obstacles.
+        </div>
+      </div>
+      <div class="card" data-color="white">
+        <div class="card-header"><span class="crown">👑</span> Day 7</div>
+        <div class="card-title">Kalaratri</div>
+        <div class="card-color">White</div>
+        <div class="card-desc">
+          The fiercest form, Kalaratri destroys evil and darkness. She protects from fear and grants inner strength and clarity.
+        </div>
+      </div>
+      <div class="card" data-color="pink">
+        <div class="card-header"><span class="crown">👑</span> Day 8</div>
+        <div class="card-title">Mahagauri</div>
+        <div class="card-color">Pink</div>
+        <div class="card-desc">
+          Symbol of purity and serenity, Mahagauri rides a bull and holds a trident and damaru. She blesses with peace, virtue, and calmness.
+        </div>
+      </div>
+      <div class="card" data-color="purple">
+        <div class="card-header"><span class="crown">👑</span> Day 9</div>
+        <div class="card-title">Siddhidatri</div>
+        <div class="card-color">Purple</div>
+        <div class="card-desc">
+          The granter of supernatural powers, Siddhidatri sits on a lotus and blesses all with wisdom, success, and spiritual fulfillment.
+        </div>
+      </div>
+      <div class="card" data-color="gold">
+        <div class="card-header"><span class="crown">🏆</span> Day 10</div>
+        <div class="card-title">Vijayadashami</div>
+        <div class="card-color">Gold</div>
+        <div class="card-desc">
+          The festival culminates with Vijayadashami (Dussehra), celebrating the victory of good over evil. May this day bring triumph, joy, and new beginnings to all!
+        </div>
+      </div>
+    </div>
+    <div class="navratri-wishes">
+      <h3>🌸 Wishing you a vibrant, blessed, and victorious Navratri! 🌸</h3>
+      <p>May the divine energy of Maa Durga fill your life with happiness, health, and success.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>🌼 Wishing You a Blessed Navratri 🌼</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
